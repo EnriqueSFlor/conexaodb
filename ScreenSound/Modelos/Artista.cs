@@ -4,7 +4,7 @@ internal class Artista
 {
     private List<Musica> musicas = new List<Musica>();
 
-    public Artista(string nome, string bio)
+    public Artista(string nome, string bio) 
     {
         Nome = nome;
         Bio = bio;
