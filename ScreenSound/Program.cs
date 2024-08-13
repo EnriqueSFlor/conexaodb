@@ -14,7 +14,8 @@ try
     //artistaDAL.Atualizar(novoArtista);
     //artistaDAL.Adicionar(novoArtista);
     //artistaDAL.Deletar(novoArtista);
-    artistaDAL.RecuperarPeloNome("Slipknot")
+    var artistaRecuperado = artistaDAL.RecuperarPeloNome("Slipknot");
+    Console.WriteLine("artistaRecuperado");
 
 
 
